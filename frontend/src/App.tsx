@@ -610,7 +610,7 @@ export default function App() {
       <footer className="border-t border-slate-800 bg-slate-900/60 py-4 mt-auto text-xs text-slate-500 font-serif">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span className="font-medium">WindLens v1.0 • UK Electricity Utility Wind Analytics</span>
-          <span className="font-normal">Data Sources: Elexon BMRS Insights Solution (FUELHH & WINDFOR) • Assisted by Antigravity</span>
+          <span className="font-normal">Data Sources: Elexon BMRS Insights Solution (FUELHH & WINDFOR)</span>
         </div>
       </footer>
     </div>
