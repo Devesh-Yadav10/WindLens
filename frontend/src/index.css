@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Times New Roman", Times, Georgia, Cambria, serif;
+  }
+
+  html, body {
+    font-family: var(--font-serif);
+    @apply bg-slate-950 text-slate-100 antialiased;
+  }
+
+  /* Ensure inputs, buttons, and tables consistently inherit Times New Roman font */
+  input, select, textarea, button, table, th, td {
+    font-family: var(--font-serif);
+  }
+}
